@@ -7,7 +7,6 @@ on:
 
 jobs:
   grade-learner:
-    if: github.event_name == 'registry_package' # Apply additional filters as needed
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
